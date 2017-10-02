@@ -6,6 +6,12 @@
     <Authors>Andre Carlucci</Authors>
     <Company>Andre Carlucci</Company>
     <Product />
+    <Version>1.0.2</Version>
+    <PackageProjectUrl>https://github.com/SharpTools/SharpEventGrid</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SharpTools/SharpEventGrid</RepositoryUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/SharpTools/SharpEventGrid/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>azure eventgrid events reactive microservices</PackageTags>
+    <Description>Simple library to send Events to Azure EventGrid</Description>
   </PropertyGroup>
 
   <ItemGroup>
