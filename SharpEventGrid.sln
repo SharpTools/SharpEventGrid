@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26923.0
+VisualStudioVersion = 15.0.26929.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpEventGrid", "SharpEventGrid\SharpEventGrid.csproj", "{659CF922-32F1-4BE1-946E-D2AFF3742F27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpEventGrid", "SharpEventGrid\SharpEventGrid.csproj", "{659CF922-32F1-4BE1-946E-D2AFF3742F27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CCA92DCA-955E-4228-A7D9-A6582C7250CA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
