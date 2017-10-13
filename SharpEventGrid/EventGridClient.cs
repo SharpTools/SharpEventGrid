@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SharpEventGrid {
-    public class EventGridClient {
+    public class EventGridClient : IEventGridClient {
 
         private HttpClient _client;
         private JsonSerializerSettings _jsonSettings = new JsonSerializerSettings {
