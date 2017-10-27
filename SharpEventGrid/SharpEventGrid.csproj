@@ -6,7 +6,7 @@
     <Authors>Andre Carlucci</Authors>
     <Company>Andre Carlucci</Company>
     <Product />
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <PackageProjectUrl>https://github.com/SharpTools/SharpEventGrid</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SharpTools/SharpEventGrid</RepositoryUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/SharpTools/SharpEventGrid/master/LICENSE</PackageLicenseUrl>

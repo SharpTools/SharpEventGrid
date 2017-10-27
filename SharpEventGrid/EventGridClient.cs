@@ -11,7 +11,9 @@ namespace SharpEventGrid {
 
         private HttpClient _client;
         private JsonSerializerSettings _jsonSettings = new JsonSerializerSettings {
-            ContractResolver = new CamelCasePropertyNamesContractResolver()
+            ContractResolver = new CamelCasePropertyNamesContractResolver(),
+            NullValueHandling = NullValueHandling.Ignore,
+            Formatting = Formatting.None
         };
         private readonly Uri _eventGridUri;
 
